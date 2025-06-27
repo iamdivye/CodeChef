@@ -1,0 +1,87 @@
+element {
+}
+.container.header--first-row {
+}
+.header--first-row.container, .header--first-row.lazy-loaded, .header--first-row.widget-title {
+  max-width: 100%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .header--first-row {
+    height: 3.875rem;
+  }
+}
+.header--first-row {
+  height: 64px;
+  height: 4rem;
+}
+@media (min-width: 1200px) {
+  .container, .lazy-loaded, .widget-title {
+    width: 1080px;
+    max-width: 1310px;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .container, .lazy-loaded, .widget-title {
+    width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .container, .lazy-loaded, .widget-title {
+    width: 736px;
+  }
+}
+@media (min-width: 532px) {
+  .container, .lazy-loaded, .widget-title {
+    width: 100%;
+  }
+}
+.container, .lazy-loaded, .widget-title {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+*, .audio .figure__image--wrapper::after, .video .figure__image--wrapper::after, ::after, ::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.header {
+  --banner-sm: var(--banner);
+}
+body {
+  color: #333;
+  font-family: Merriweather Sans,sans-serif;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+body, html {
+  font-size: 16px;
+  font-size: 1rem;
+}
+element {
+  --article-sticky-top: 176px;
+}
+:root {
+  --primary-color: #333;
+  --light-color: #79c6e2;
+  --lighter-color: #a4d4e6;
+  --diff-color: #b0ba31;
+  --logo-color: #1975ae;
+  --badge-color: #f0f0f0;
+  --nav-background-color: #d9d9d9;
+  --banner-color: #4975bb;
+  --nav-font-color: #333;
+  --dropdown-font-color: #333;
+  --dropdown-border-color: #333;
+  --dropdown-background-color: #d9d9d9;
+  --proceeding-background: #fff;
+  --banner: url(/specs/products/acm/releasedAssets/images/journal-banner-inner--default-colors.svg);
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.25;
+  -webkit-text-size-adjust: 100%;
+}

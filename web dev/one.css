@@ -1,0 +1,16 @@
+img{
+    border-radius: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 40px;
+    
+}
+#two{
+    display: inline-block;
+    z-index: -1;
+    border: 20px solid black;
+    margin-left: 33%;
+    text-align: center;
+}

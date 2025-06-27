@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#nav{
+    background-color: #0f1111;
+    height: 60px;
+}
+#logo{
+    height: 25px;
+    color: orange;
+    margin-right: 200px;
+}
+a{
+    margin-right: 200px;
+    color: aliceblue;
+    text-decoration: none;
+}
+button{
+    margin-right: 200px;
+    background-color: #f08804;
+    color: aliceblue;
+}
+
